@@ -57,5 +57,8 @@ window.addEventListener('load',()=>{
 				task_input_ele.setAttribute("readonly", "readonly");
 			}
 		});
-    })
-})
+        task_delete_ele.addEventListener('click',()=>{
+            list_ele.removeChild(task_ele);
+        });
+    });
+});

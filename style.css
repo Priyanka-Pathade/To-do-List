@@ -32,7 +32,7 @@ header h1 {
     font-size: 2.5rem;
     font-weight: 300;
     margin-bottom: 1rem;
-    color: var(--grey);
+    color: var(--light);
 }
 
 #new_task_form {
